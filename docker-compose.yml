@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+    backend:
+        image: python:3.9.6-slim
+        command: sh -c "pip install -r requirements.txt && python -u main.py"
+        ports:
+            - 8000:8000
+        working_dir: /code
+        volumes:
+            - ./backend:/code
+
+    frontend:
+        image: node:14-slim
+        command: sh -c "yarn install && yarn build && yarn start"
+        ports:
+            - 3000:3000
+        working_dir: /code
+        volumes:
+            - ./frontend:/code
