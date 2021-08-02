@@ -1,5 +1,7 @@
 # Really simple communication between two servers via websockets
 
+This was originally conceived as a proof of concept to demonstrate how a client can directly communicate with a server running in a local machine to overcome the browser limitations that involve direct access to the OS system.
+
 The servers are composed by a web page (running on node and referred to as front-end) and a local server (running on python and referred as backend)
 
 Simple repo with studies of a simple communicaton between a python local server and a webApp through the use of websockets
