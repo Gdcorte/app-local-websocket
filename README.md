@@ -13,8 +13,7 @@ For the python server, install dependencies listed in requirements.txt file and 
 For the node server, install dependencies with "yarn install", make a build with "yarn build" and then run with "yarn start". Alternatively, those three commands can be bundled:
 "yarn build && yarn build && yarn start"
 
-## Examples of the page working
+# Examples of the page working
 
 ![Screenshot](/screenshots/main.png)
-
 ![Screenshot](/screenshots/communication.png)
