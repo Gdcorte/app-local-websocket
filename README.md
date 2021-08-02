@@ -15,6 +15,6 @@ For the node server, install dependencies with "yarn install", make a build with
 
 ## Examples of the page working
 
-![Screenshot](/screenshots/default.png)
+![Screenshot](/screenshots/main.png)
 
-![Screenshot](/screenshots/after_message.png)
+![Screenshot](/screenshots/communication.png)
